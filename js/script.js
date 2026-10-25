@@ -1,0 +1,1 @@
+// Skrypty strony – implementacja w kolejnych commitach

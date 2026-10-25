@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Szczególna teoria względności – przystępne wyjaśnienie, efekty relatywistyczne, E=mc² i quiz.">
+  <meta name="author" content="Twoje Imię i Nazwisko">
+  <title>Szczególna teoria względności | Fizyka</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER / NAWIGACJA ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a href="#hero" class="logo" aria-label="Strona główna – STW">STW</a>
+
+      <button id="menu-toggle" class="menu-toggle"
+              aria-label="Otwórz menu nawigacyjne"
+              aria-expanded="false"
+              aria-controls="main-nav">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Nawigacja główna">
+        <ul>
+          <li><a href="#wprowadzenie">Wprowadzenie</a></li>
+          <li><a href="#postulaty">Postulaty</a></li>
+          <li><a href="#efekty">Efekty</a></li>
+          <li><a href="#emc2">E = mc²</a></li>
+          <li><a href="#ciekawostki">Ciekawostki</a></li>
+          <li><a href="#quiz">Quiz</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <h1 id="hero-title">Szczególna teoria względności</h1>
+        <p class="hero-subtitle">
+          Jak czas i przestrzeń zmieniają się, gdy zbliżasz się do prędkości światła?
+        </p>
+        <a href="#wprowadzenie" class="btn">Rozpocznij odkrywanie</a>
+      </div>
+    </section>
+
+    <!-- ===== WPROWADZENIE ===== -->
+    <section id="wprowadzenie" class="section" aria-labelledby="wprowadzenie-title">
+      <div class="container">
+        <h2 id="wprowadzenie-title">Wprowadzenie</h2>
+        <p>
+          Szczególna teoria względności została opublikowana przez Alberta Einsteina
+          w 1905 roku. Opisuje ona zjawiska fizyczne zachodzące w układach
+          inercjalnych, w których nie występują oddziaływania grawitacyjne.
+        </p>
+        <figure>
+          <img src="img/einstein.jpg"
+               alt="Portret Alberta Einsteina, twórcy szczególnej teorii względności"
+               width="400" height="400" loading="lazy">
+          <figcaption>Albert Einstein – autor teorii względności.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== POSTULATY ===== -->
+    <section id="postulaty" class="section" aria-labelledby="postulaty-title">
+      <div class="container">
+        <h2 id="postulaty-title">Dwa postulaty Einsteina</h2>
+        <ol class="postulates">
+          <li>
+            <strong>Zasada względności:</strong> prawa fizyki są takie same
+            we wszystkich inercjalnych układach odniesienia.
+          </li>
+          <li>
+            <strong>Niezmienność prędkości światła:</strong> prędkość światła
+            w próżni jest taka sama dla wszystkich obserwatorów, niezależnie
+            od ich ruchu względem źródła.
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== EFEKTY RELATYWISTYCZNE ===== -->
+    <section id="efekty" class="section" aria-labelledby="efekty-title">
+      <div class="container">
+        <h2 id="efekty-title">Efekty relatywistyczne</h2>
+        <p>
+          Z postulatów wynikają zaskakujące konsekwencje: dylatacja czasu,
+          skrócenie długości oraz względność jednoczesności.
+        </p>
+
+        <article class="card">
+          <h3>Dylatacja czasu</h3>
+          <p>Opis efektu i wzór: Δt = Δt₀ / √(1 − v²/c²)</p>
+        </article>
+
+        <article class="card">
+          <h3>Skrócenie długości</h3>
+          <p>Opis efektu i wzór: L = L₀ · √(1 − v²/c²)</p>
+        </article>
+
+        <!-- Miejsce na kalkulator dylatacji (commit 6) -->
+        <div id="time-dilation-calculator" class="calculator">
+          <!-- zawartość dodana w późniejszym commicie -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== E = mc² ===== -->
+    <section id="emc2" class="section" aria-labelledby="emc2-title">
+      <div class="container">
+        <h2 id="emc2-title">Równoważność masy i energii</h2>
+        <p class="formula" aria-label="E równa się m c kwadrat">E = mc²</p>
+        <p>
+          Najsłynniejszy wzór fizyki mówi, że masa i energia są dwiema
+          postaciami tej samej rzeczywistości.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== CIEKAWOSTKI ===== -->
+    <section id="ciekawostki" class="section" aria-labelledby="ciekawostki-title">
+      <div class="container">
+        <h2 id="ciekawostki-title">Ciekawostki</h2>
+        <ul>
+          <li>GPS działa poprawnie tylko dzięki poprawkom relatywistycznym.</li>
+          <li>Miony z kosmosu „żyją” dłużej, bo poruszają się z prędkością bliską c.</li>
+          <li>Paradoks bliźniąt – jeden z bliźniaków wraca z podróży młodszy.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== QUIZ ===== -->
+    <section id="quiz" class="section" aria-labelledby="quiz-title">
+      <div class="container">
+        <h2 id="quiz-title">Sprawdź swoją wiedzę</h2>
+        <p>Krótki quiz – zostanie dodany w kolejnym etapie projektu.</p>
+        <div id="quiz-container">
+          <!-- zawartość dodana w commicie 6 -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Szczególna teoria względności – projekt szkolny</p>
+      <p>
+        Źródła:
+        <a href="https://pl.wikipedia.org/wiki/Szczególna_teoria_względności"
+           target="_blank" rel="noopener noreferrer">Wikipedia – STW</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ===== PRZYCISK POWROTU NA GÓRĘ (commit 7) ===== -->
+  <button id="back-to-top" class="back-to-top" aria-label="Powrót na górę strony" hidden>
+    ↑
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
