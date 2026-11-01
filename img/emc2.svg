@@ -1,0 +1,91 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 330">
+<!-- "E=mc²-explication.svg" by Jason Barnabas -->
+<rect x="0" y="260" width="600" height="70" rx="16" ry="16" fill="#C7EAFD"/>
+<rect width="600" height="300" rx="16" ry="16" fill="#6DCFF6"/>
+<g stroke="white" stroke-width="5" stroke-linecap="round">
+  <line x1="210" y1="120" x2="30" y2="50"/>
+  <line x1="200" y1="180" x2="100" y2="230"/>
+  <line x1="340" y1="135" x2="180" y2="50"/>
+  <line x1="330" y1="180" x2="120" y2="230"/>
+  <line x1="385" y1="135" x2="450" y2="50"/>
+  <line x1="370" y1="180" x2="320" y2="230"/>
+</g>
+<g fill="#C7EAFD">
+  <rect x="25" y="35" width="550" height="50" rx="3"/>
+  <rect x="25" y="215" width="550" height="50" rx="3"/>
+</g>
+<g text-anchor="middle">
+  <switch transform="translate(300,70)" font-size="36" font-family="Arial">
+    <text systemLanguage="eo">energio | maso | lumrapido</text>
+    <text systemLanguage="es" font-size="30">energía | masa | velocidad de la luz</text>
+    <text systemLanguage="fr" font-size="34">énergie | masse | vit. de la lumière</text>
+    <text systemLanguage="it" font-size="30">energia | massa | velocità della luce</text>
+    <text systemLanguage="ja">エネルギー | 質量 | 光速</text>
+    <text systemLanguage="lv">enerģija | masa | gaismas ātrums</text>
+    <text systemLanguage="mk" font-size="30">енергија | маса | брз. на светлината</text>
+    <text systemLanguage="sv">energi | massa | ljushastighet</text>
+    <text systemLanguage="en">energy | mass | speed of light</text>
+    <text>energy | mass | speed of light</text>
+  </switch>
+  <switch transform="translate(300,250)" font-size="36" font-family="Arial">
+    <text systemLanguage="eo">J | kg | 299,792,458 m/s</text>
+    <text systemLanguage="es">J | kg | 299 792 458 m/s</text>
+    <text systemLanguage="fr">J | kg | 299 792 458 m/s</text>
+    <text systemLanguage="it">J | kg | 299.792.458 m/s</text>
+    <text systemLanguage="ja">J | kg | 299,792,458 m/s</text>
+    <text systemLanguage="lv">J | kg | 299 792 458 m/s</text>
+    <text systemLanguage="mk">J | &#1082;&#1075; | 299.792.458 &#1084;/&#1089;</text>
+    <text systemLanguage="sv">J | Kg | 299'792'458 m/s</text>
+    <text systemLanguage="en">J | kg | 299,792,458 m/s</text>
+    <text>J | kg | 299,792,458 m/s</text>
+  </switch>
+  <switch transform="translate(300,25)" font-size="24" font-family="Arial" fill="white">
+    <text systemLanguage="eo">valoro</text>
+    <text systemLanguage="es">valor</text>
+    <text systemLanguage="fr">valeur</text>
+    <text systemLanguage="it">valore</text>
+    <text systemLanguage="ja">&#20516;</text>
+    <text systemLanguage="lv">fizikālais lielums</text>
+    <text systemLanguage="mk">&#1074;&#1088;&#1077;&#1076;&#1085;&#1086;&#1089;&#1090;</text>
+    <text systemLanguage="sv">storhet</text>
+    <text systemLanguage="en">value</text>
+    <text>value</text>
+  </switch>
+  <switch transform="translate(300,290)" font-size="24" font-family="Arial" fill="white">
+    <text systemLanguage="eo">unuoj</text>
+    <text systemLanguage="es">unidades</text>
+    <text systemLanguage="fr">unités</text>
+    <text systemLanguage="it">unità</text>
+    <text systemLanguage="ja">&#21336;&#20301;</text>
+    <text systemLanguage="lv">mērvienība</text>
+    <text systemLanguage="mk">единици</text>
+    <text systemLanguage="sv">enheter</text>
+    <text systemLanguage="en">units</text>
+    <text>units</text>
+  </switch>
+   <switch transform="translate(300,174)" font-size="72" font-style="italic">
+    <text systemLanguage="eo">E = mc²</text>
+    <text systemLanguage="es">E = mc²</text>
+    <text systemLanguage="fr">E = mc²</text>
+    <text systemLanguage="it">E = mc²</text>
+    <text systemLanguage="ja">E = mc²</text>
+    <text systemLanguage="lv">E = mc²</text>
+    <text systemLanguage="mk">E = mc²</text>
+    <text systemLanguage="sv">E = mc²</text>
+    <text systemLanguage="en">E = mc²</text>
+    <text>E = mc²</text>
+  </switch>
+  <switch transform="translate(300,324)" font-size="24" font-style="italic">
+    <text systemLanguage="eo">c² = 89,875,517,873,681,764 m²/s²</text>
+    <text systemLanguage="es">c² = 89 875 517 873 681 764 m²/s²</text>
+    <text systemLanguage="fr">c² = 89 875 517 873 681 764 m²/s²</text>
+    <text systemLanguage="it">c² = 89.875.517.873.681.764 m²/s²</text>
+    <text systemLanguage="ja">c² = 89,875,517,873,681,764 m²/s²</text>
+    <text systemLanguage="lv">c² = 89 875 517 873 681 764 m²/s²</text>
+    <text systemLanguage="mk">c² = 89'875'517'873'681'764 &#1084;²/&#1089;²</text>
+    <text systemLanguage="sv">c² = 89'875'517'873'681'764 m²/s²</text>
+    <text systemLanguage="en">c² = 89,875,517,873,681,764 m²/s²</text>
+    <text>c² = 89,875,517,873,681,764 m²/s²</text>
+  </switch>
+</g>
+</svg>
