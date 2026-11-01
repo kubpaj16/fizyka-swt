@@ -10,11 +10,9 @@
 </head>
 <body>
 
-  <!-- ===== HEADER / NAWIGACJA ===== -->
   <header class="site-header">
     <div class="container">
       <a href="#hero" class="logo" aria-label="Strona główna – STW">STW</a>
-
       <button id="menu-toggle" class="menu-toggle"
               aria-label="Otwórz menu nawigacyjne"
               aria-expanded="false"
@@ -23,7 +21,6 @@
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
       </button>
-
       <nav id="main-nav" class="main-nav" aria-label="Nawigacja główna">
         <ul>
           <li><a href="#wprowadzenie">Wprowadzenie</a></li>
@@ -39,7 +36,6 @@
 
   <main>
 
-    <!-- ===== HERO ===== -->
     <section id="hero" class="hero" aria-labelledby="hero-title">
       <div class="container">
         <h1 id="hero-title">Szczególna teoria względności</h1>
@@ -50,106 +46,193 @@
       </div>
     </section>
 
-    <!-- ===== WPROWADZENIE ===== -->
     <section id="wprowadzenie" class="section" aria-labelledby="wprowadzenie-title">
       <div class="container">
         <h2 id="wprowadzenie-title">Wprowadzenie</h2>
         <p>
-          Szczególna teoria względności została opublikowana przez Alberta Einsteina
-          w 1905 roku. Opisuje ona zjawiska fizyczne zachodzące w układach
-          inercjalnych, w których nie występują oddziaływania grawitacyjne.
+          Szczególna teoria względności (STW) została opublikowana przez
+          Alberta Einsteina w 1905 roku – w tym samym „cudownym roku”, w którym
+          powstały także prace o efekcie fotoelektrycznym i ruchu Browna.
+          Teoria opisuje zjawiska fizyczne zachodzące w układach inercjalnych,
+          czyli takich, które poruszają się względem siebie ze stałą prędkością,
+          bez udziału grawitacji.
+        </p>
+        <p>
+          Zanim Einstein opublikował swoje prace, fizycy zakładali istnienie
+          eteru – hipotetycznego ośrodka, w którym miało rozchodzić się światło.
+          Eksperyment Michelsona–Morleya (1887) nie wykazał jednak żadnego ruchu
+          Ziemi względem eteru. Einstein rozwiązał problem, odrzucając eter
+          i przyjmując dwa proste postulaty, z których wyniknęły zaskakujące
+          konsekwencje: czas płynie inaczej dla obserwatorów w ruchu, długość
+          ciała się skraca, a masa i energia są sobie równoważne.
         </p>
         <figure>
           <img src="img/einstein.jpg"
-               alt="Portret Alberta Einsteina, twórcy szczególnej teorii względności"
+               alt="Czarno-biały portret Alberta Einsteina, fizyka i twórcy szczególnej teorii względności"
                width="400" height="400" loading="lazy">
-          <figcaption>Albert Einstein – autor teorii względności.</figcaption>
+          <figcaption>Albert Einstein (1879–1955) – autor szczególnej teorii względności.</figcaption>
         </figure>
       </div>
     </section>
 
-    <!-- ===== POSTULATY ===== -->
     <section id="postulaty" class="section" aria-labelledby="postulaty-title">
       <div class="container">
         <h2 id="postulaty-title">Dwa postulaty Einsteina</h2>
+        <p>
+          Cała teoria opiera się na dwóch założeniach, które – choć brzmią
+          niewinnie – prowadzą do całkowitej zmiany rozumienia czasu
+          i przestrzeni.
+        </p>
         <ol class="postulates">
           <li>
             <strong>Zasada względności:</strong> prawa fizyki są takie same
-            we wszystkich inercjalnych układach odniesienia.
+            we wszystkich inercjalnych układach odniesienia. Nie istnieje
+            wyróżniony, „absolutny” układ, względem którego można by mierzyć
+            ruch.
           </li>
           <li>
             <strong>Niezmienność prędkości światła:</strong> prędkość światła
-            w próżni jest taka sama dla wszystkich obserwatorów, niezależnie
-            od ich ruchu względem źródła.
+            w próżni wynosi dokładnie <em>c</em> ≈ 299 792 458 m/s i jest taka
+            sama dla wszystkich obserwatorów, niezależnie od ich ruchu
+            względem źródła światła.
           </li>
         </ol>
+        <p>
+          Drugi postulat jest szczególnie nieintuicyjny: gdy biegniesz
+          w stronę latarki, światło i tak dociera do Ciebie z prędkością
+          <em>c</em>, a nie <em>c</em> + Twoja prędkość. Aby to pogodzić,
+          Einstein musiał zrezygnować z absolutnego czasu i absolutnej
+          przestrzeni.
+        </p>
       </div>
     </section>
 
-    <!-- ===== EFEKTY RELATYWISTYCZNE ===== -->
     <section id="efekty" class="section" aria-labelledby="efekty-title">
       <div class="container">
         <h2 id="efekty-title">Efekty relatywistyczne</h2>
         <p>
-          Z postulatów wynikają zaskakujące konsekwencje: dylatacja czasu,
-          skrócenie długości oraz względność jednoczesności.
+          Z dwóch postulatów wynikają konsekwencje obserwowalne w eksperymentach:
+          dylatacja czasu, skrócenie długości oraz względność jednoczesności.
+          Wszystkie one zależą od współczynnika Lorentza
+          <em>γ</em> = 1 / √(1 − v²/c²), który dla małych prędkości jest
+          bliski 1 i dlatego w codziennym życiu tych efektów nie zauważamy.
         </p>
 
         <article class="card">
           <h3>Dylatacja czasu</h3>
-          <p>Opis efektu i wzór: Δt = Δt₀ / √(1 − v²/c²)</p>
+          <p>
+            Czas płynie wolniej w układzie poruszającym się względem
+            obserwatora. Zegar na pokładzie szybkiej rakiety tyka wolniej niż
+            zegar na Ziemi. Wzór: <em>Δt</em> = <em>Δt</em>₀ · <em>γ</em>,
+            gdzie <em>Δt</em>₀ to czas zmierzony w układzie spoczynkowym
+            obiektu.
+          </p>
+          <p>
+            Przykład: miony powstające w górnych warstwach atmosfery „żyją”
+            zaledwie 2,2 μs, a mimo to docierają do powierzchni Ziemi –
+            właśnie dzięki dylatacji czasu.
+          </p>
         </article>
 
         <article class="card">
           <h3>Skrócenie długości</h3>
-          <p>Opis efektu i wzór: L = L₀ · √(1 − v²/c²)</p>
+          <p>
+            Obiekt poruszający się względem obserwatora wydaje się krótszy
+            w kierunku ruchu. Wzór: <em>L</em> = <em>L</em>₀ / <em>γ</em>.
+            Efekt jest odwrotnością dylatacji czasu – skoro czas płynie inaczej,
+            musi też zmieniać się mierzona długość.
+          </p>
         </article>
 
-        <!-- Miejsce na kalkulator dylatacji (commit 6) -->
+        <article class="card">
+          <h3>Względność jednoczesności</h3>
+          <p>
+            Dwa zdarzenia, które dla jednego obserwatora zachodzą
+            jednocześnie, dla innego mogą zachodzić w różnym czasie. Nie ma
+            uniwersalnego „teraz” – jednoczesność zależy od układu odniesienia.
+          </p>
+        </article>
+
         <div id="time-dilation-calculator" class="calculator">
-          <!-- zawartość dodana w późniejszym commicie -->
+          <!-- kalkulator dylatacji czasu – commit 6 -->
         </div>
       </div>
     </section>
 
-    <!-- ===== E = mc² ===== -->
     <section id="emc2" class="section" aria-labelledby="emc2-title">
       <div class="container">
         <h2 id="emc2-title">Równoważność masy i energii</h2>
         <p class="formula" aria-label="E równa się m c kwadrat">E = mc²</p>
         <p>
           Najsłynniejszy wzór fizyki mówi, że masa i energia są dwiema
-          postaciami tej samej rzeczywistości.
+          postaciami tej samej rzeczywistości. Każde ciało o masie <em>m</em>
+          ma „zapas” energii spoczynkowej równy <em>mc</em>², nawet jeśli się
+          nie porusza. Ponieważ prędkość światła jest ogromna (≈ 3·10⁸ m/s),
+          nawet gram materii odpowiada energii ok. 9·10¹³ J – czyli około
+          21 kilotonom trotylu.
         </p>
+        <p>
+          Wzór wyjaśnia, dlaczego Słońce świeci (masa jąder atomowych zamienia
+          się w energię podczas fuzji), dlaczego bomby jądrowe są tak potężne
+          oraz dlaczego cząstki w akceleratorach zachowują się inaczej niż
+          wynikałoby to z fizyki klasycznej.
+        </p>
+        <figure>
+          <img src="img/emc2.svg"
+               alt="Grafika przedstawiająca wzór E równa się m c kwadrat na tle rozgwieżdżonego nieba"
+               width="600" height="300" loading="lazy">
+          <figcaption>Równoważność masy i energii – najbardziej rozpoznawalny wzór fizyki.</figcaption>
+        </figure>
       </div>
     </section>
 
-    <!-- ===== CIEKAWOSTKI ===== -->
     <section id="ciekawostki" class="section" aria-labelledby="ciekawostki-title">
       <div class="container">
         <h2 id="ciekawostki-title">Ciekawostki</h2>
         <ul>
-          <li>GPS działa poprawnie tylko dzięki poprawkom relatywistycznym.</li>
-          <li>Miony z kosmosu „żyją” dłużej, bo poruszają się z prędkością bliską c.</li>
-          <li>Paradoks bliźniąt – jeden z bliźniaków wraca z podróży młodszy.</li>
+          <li>
+            <strong>GPS bez STW by nie działał.</strong> Zegary w satelitach
+            GPS poruszają się z prędkością ok. 3,9 km/s, a do tego znajdują się
+            w słabszym polu grawitacyjnym. Bez poprawek relatywistycznych
+            (kilkadziesiąt mikrosekund dziennie) pozycja wyliczona przez GPS
+            myliłaby się o kilkanaście kilometrów po jednym dniu.
+          </li>
+          <li>
+            <strong>Paradoks bliźniąt.</strong> Jeden z bliźniaków zostaje na
+            Ziemi, drugi wyrusza w podróż z prędkością bliską <em>c</em>.
+            Po powrocie podróżnik jest młodszy od brata – efekt potwierdzony
+            eksperymentalnie na zegarach atomowych w samolotach.
+          </li>
+          <li>
+            <strong>Prędkość światła jest nieprzekraczalna.</strong> Im szybciej
+            porusza się ciało, tym trudniej je dalej rozpędzić – jego
+            „relatywistyczna masa” rośnie i energia potrzebna do osiągnięcia
+            <em>c</em> dąży do nieskończoności.
+          </li>
+          <li>
+            <strong>Miony z kosmosu.</strong> Powstają ok. 10 km nad Ziemią
+            i „żyją” 2,2 μs – bez STW nie powinny dolatywać do powierzchni,
+            a jednak docierają. To jeden z pierwszych dowodów na dylatację czasu.
+          </li>
         </ul>
       </div>
     </section>
 
-    <!-- ===== QUIZ ===== -->
     <section id="quiz" class="section" aria-labelledby="quiz-title">
       <div class="container">
         <h2 id="quiz-title">Sprawdź swoją wiedzę</h2>
-        <p>Krótki quiz – zostanie dodany w kolejnym etapie projektu.</p>
+        <p>
+          Krótki quiz sprawdzi, czy rozumiesz podstawowe pojęcia szczególnej
+          teorii względności. Zostanie udostępniony w kolejnym etapie projektu.
+        </p>
         <div id="quiz-container">
-          <!-- zawartość dodana w commicie 6 -->
+          <!-- quiz – commit 6 -->
         </div>
       </div>
     </section>
 
   </main>
 
-  <!-- ===== FOOTER ===== -->
   <footer class="site-footer">
     <div class="container">
       <p>&copy; 2026 Szczególna teoria względności – projekt szkolny</p>
@@ -157,11 +240,13 @@
         Źródła:
         <a href="https://pl.wikipedia.org/wiki/Szczególna_teoria_względności"
            target="_blank" rel="noopener noreferrer">Wikipedia – STW</a>
+        &middot;
+        <a href="https://pl.wikipedia.org/wiki/Równoważność_masy_i_energii"
+           target="_blank" rel="noopener noreferrer">Wikipedia – E=mc²</a>
       </p>
     </div>
   </footer>
 
-  <!-- ===== PRZYCISK POWROTU NA GÓRĘ (commit 7) ===== -->
   <button id="back-to-top" class="back-to-top" aria-label="Powrót na górę strony" hidden>
     ↑
   </button>
