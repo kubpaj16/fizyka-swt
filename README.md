@@ -17,6 +17,10 @@ https://kubpaj16.github.io/fizyka-swt/
 
 https://github.com/kubpaj16/fizyka-swt
 
+## Link do historii commitów
+
+https://github.com/kubpaj16/fizyka-swt/commits/main
+
 ## Wykorzystane technologie
 
 - **HTML5** – semantyczne znaczniki (`header`, `nav`, `main`, `section`,
@@ -39,5 +43,3 @@ https://github.com/kubpaj16/fizyka-swt
   zwrotną
 - **Przycisk „powrót na górę”** – pojawia się po przewinięciu strony,
   płynnie przewija do początku
-
-## 📁 Struktura projektu
