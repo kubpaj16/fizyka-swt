@@ -13,6 +13,7 @@
   <header class="site-header">
     <div class="container">
       <a href="#hero" class="logo" aria-label="Strona główna – STW">STW</a>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Włącz ciemny motyw">🌙</button>
       <button id="menu-toggle" class="menu-toggle"
               aria-label="Otwórz menu nawigacyjne"
               aria-expanded="false"
@@ -154,7 +155,15 @@
         </article>
 
         <div id="time-dilation-calculator" class="calculator">
-          <!-- kalkulator dylatacji czasu – commit 6 -->
+            <h3>Kalkulator dylatacji czasu</h3>
+            <p>Wpisz prędkość jako procent prędkości światła (0–99,99%):</p>
+            <label for="calc-velocity">Prędkość w procentach <em>c</em>:</label>
+            <input type="number" id="calc-velocity" min="0" max="99.99" step="0.01" value="0">
+            <p>Prędkość: <strong><span id="calc-velocity-value">0</span>% c</strong></p>
+            <p>Współczynnik Lorentza γ = <strong id="calc-result">1.0000</strong></p>
+            <p class="calc-note">
+                Oznacza to, że zegar w poruszającym się układzie tyka γ razy wolniej niż ziemski.
+            </p>
         </div>
       </div>
     </section>
