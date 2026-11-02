@@ -15,7 +15,7 @@ https://kubpaj16.github.io/fizyka-swt/
 
 ## Link do repozytorium
 
-https://github.com/kubpaj16/fizyka-swt/edit/main
+https://github.com/kubpaj16/fizyka-swt
 
 ## Wykorzystane technologie
 
