@@ -371,3 +371,191 @@ figcaption {
   background-color: var(--color-primary);
   transform: translateY(-3px);
 }
+
+/* ============================================================
+   Etap 3: responsywne menu hamburger
+   ============================================================ */
+
+@media (max-width: 768px) {
+  /* Przycisk hamburgera – widoczny tylko na mobile */
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  /* Marginesy linii zastępujemy przez gap w kontenerze */
+  .hamburger-line {
+    margin: 0;
+  }
+
+  /* Nawigacja jako rozwijane menu pod headerem */
+  .main-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 0;
+    overflow: hidden;
+    background-color: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: var(--shadow);
+    transition: max-height 0.35s ease;
+  }
+
+  .main-nav.is-open {
+    max-height: 500px;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .main-nav a {
+    padding: 0.75rem 1rem;
+  }
+}
+
+/* Animacja hamburger → X (aktywna, gdy menu otwarte) */
+.menu-toggle[aria-expanded="true"] .hamburger-line:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.menu-toggle[aria-expanded="true"] .hamburger-line:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle[aria-expanded="true"] .hamburger-line:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ---------- Motyw ciemny ---------- */
+[data-theme="dark"] {
+  --color-bg: #12121f;
+  --color-surface: #1e1e2e;
+  --color-text: #e8e8f0;
+  --color-text-muted: #a0a0b8;
+  --color-primary: #8b7cf0;
+  --color-primary-hover: #a599ff;
+  --color-accent: #b5a8ff;
+  --color-border: #2e2e44;
+  --color-footer-bg: #0a0a14;
+  --color-footer-text: #c0c0d0;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* ---------- Przycisk motywu ---------- */
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  width: 44px;
+  height: 44px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color var(--transition), border-color var(--transition);
+}
+.theme-toggle:hover,
+.theme-toggle:focus {
+  background-color: var(--color-bg);
+  border-color: var(--color-accent);
+}
+
+/* Na desktopie przycisk motywu obok nawigacji */
+.site-header .container > .theme-toggle {
+  margin-left: auto;
+  margin-right: 0.5rem;
+}
+
+/* Na mobile – nieco mniejszy margines */
+@media (max-width: 768px) {
+  .site-header .container > .theme-toggle {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+/* ---------- Kalkulator ---------- */
+.calculator {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: var(--color-surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.calculator h3 {
+  margin-top: 0;
+  color: var(--color-primary);
+}
+.calculator label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.calculator input[type="number"] {
+  width: 100%;
+  max-width: 200px;
+  padding: 0.6rem 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  transition: border-color var(--transition);
+}
+.calculator input[type="number"]:focus {
+  border-color: var(--color-accent);
+  outline: none;
+}
+.calc-note {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0;
+}
+
+/* ---------- Quiz ---------- */
+.quiz-question {
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+.quiz-question legend {
+  padding: 0 0.5rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+.quiz-question label {
+  display: block;
+  padding: 0.4rem 0;
+  cursor: pointer;
+}
+.quiz-question input[type="radio"] {
+  margin-right: 0.5rem;
+  accent-color: var(--color-accent);
+}
+.quiz-result {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: var(--color-surface);
+  border-radius: var(--radius);
+  text-align: center;
+}
+.quiz-success {
+  color: #1a5c2a;
+  background-color: #d4f4dd;
+}
+[data-theme="dark"] .quiz-success {
+  color: #b8f0c4;
+  background-color: #1e4a28;
+}
