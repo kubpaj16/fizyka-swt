@@ -11,7 +11,7 @@ dylatacji czasu i quiz sprawdzający wiedzę.
 
 ## Link do opublikowanej strony
 
-https://kubpaj16.github.io/fizyka-stw/
+https://kubpaj16.github.io/fizyka-swt/
 
 ## Link do repozytorium
 
